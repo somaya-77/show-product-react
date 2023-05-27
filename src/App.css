@@ -1,0 +1,39 @@
+.App{
+  width: 100vw;
+}
+.card-list{
+  width: 100%;
+  background: #eee;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.card{
+  text-align: center;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #777;
+  cursor: pointer;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.card img{
+  width: calc((100%) - 150px);
+}
+.card:hover img{
+  scale: 1.05;
+  transition: 0.5s linear;
+}
+.title{
+  text-align: left;
+}
+h1{
+  font-size: 25px;
+  color: red;
+}
+span{
+  color: blue;
+  font-weight: bold;
+}
